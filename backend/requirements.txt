@@ -1,0 +1,65 @@
+# FastAPI & Web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+alembic==1.13.0
+pgvector==0.2.4
+
+# Redis
+redis==5.0.1
+
+# AI & LLM
+openai==1.3.8
+langchain==0.1.7
+langchain-openai==0.0.5
+langgraph==0.0.18
+crewai==0.25.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# Data Processing
+numpy==1.26.3
+pandas==2.1.3
+scikit-learn==1.3.2
+
+# Authentication & Security
+PyJWT==2.8.1
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+cryptography==41.0.7
+
+# Utilities
+requests==2.31.0
+httpx==0.25.2
+python-dateutil==2.8.2
+pytz==2023.3.post1
+click==8.1.7
+
+# Logging & Monitoring
+python-json-logger==2.0.7
+promethus-client==0.19.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Email & SMS
+smtplib==0.0.2
+twilio==8.10.0
+
+# WebSocket
+websockets==12.0
+python-socketio==5.10.0
+aioredis==2.0.1
+
+# Utils
+pydantic-extra-types==2.3.0
